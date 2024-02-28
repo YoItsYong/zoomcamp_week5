@@ -17,3 +17,6 @@ which pyspark
 echo $JAVA_HOME
 echo $SPARK_HOME
 echo $PYTHONPATH
+
+gsutil -m cp -r pq/ gs://week5_nytaxi/pq
+/workspaces/zoomcamp_week5/spark/data/google-cloud-sdk/bin/gsutil cp gs://hadoop-lib/gcs/gcs-connector-hadoop3-2.2.5.jar gcs-connector-hadoop3-2.2.5.jar

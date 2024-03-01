@@ -1,7 +1,16 @@
-spark/data
+spark/data/raw
+spark/data/pq/green
+spark/data/pq/yellow
+spark/data/google-cloud-sdk
+spark/data/report
 spark/jdk-11.0.2
 spark/spark-3.3.2-bin-hadoop3
+
+.ipynb_checkpoints
 
 .bashrc
 
 *.json
+*.csv
+*.csv.gz
+*.tar.gz
